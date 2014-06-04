@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0254C61936CE6100443E83 /* mapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA0254C41936CE6100443E83 /* mapping.cpp */; };
 		AA06F8501935F00D00D72920 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA06F84F1935F00D00D72920 /* main.cpp */; };
 		AA06F8521935F00D00D72920 /* aaa.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA06F8511935F00D00D72920 /* aaa.1 */; };
+		AA06F85A1935F01A00D72920 /* bump_node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA06F8581935F01A00D72920 /* bump_node.cpp */; };
+		AA06F85D1935F03000D72920 /* solve_boxnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA06F85B1935F03000D72920 /* solve_boxnode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +28,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA0254C41936CE6100443E83 /* mapping.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapping.cpp; sourceTree = "<group>"; };
+		AA0254C51936CE6100443E83 /* mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapping.h; sourceTree = "<group>"; };
 		AA06F84C1935F00D00D72920 /* aaa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = aaa; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA06F84F1935F00D00D72920 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AA06F8511935F00D00D72920 /* aaa.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = aaa.1; sourceTree = "<group>"; };
+		AA06F8581935F01A00D72920 /* bump_node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bump_node.cpp; sourceTree = "<group>"; };
+		AA06F8591935F01A00D72920 /* bump_node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bump_node.h; sourceTree = "<group>"; };
+		AA06F85B1935F03000D72920 /* solve_boxnode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = solve_boxnode.cpp; sourceTree = "<group>"; };
+		AA06F85C1935F03000D72920 /* solve_boxnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solve_boxnode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 		AA06F84E1935F00D00D72920 /* aaa */ = {
 			isa = PBXGroup;
 			children = (
+				AA06F8581935F01A00D72920 /* bump_node.cpp */,
+				AA06F85B1935F03000D72920 /* solve_boxnode.cpp */,
+				AA06F85C1935F03000D72920 /* solve_boxnode.h */,
+				AA06F8591935F01A00D72920 /* bump_node.h */,
 				AA06F84F1935F00D00D72920 /* main.cpp */,
 				AA06F8511935F00D00D72920 /* aaa.1 */,
+				AA0254C41936CE6100443E83 /* mapping.cpp */,
+				AA0254C51936CE6100443E83 /* mapping.h */,
 			);
 			path = aaa;
 			sourceTree = "<group>";
@@ -117,7 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0254C61936CE6100443E83 /* mapping.cpp in Sources */,
 				AA06F8501935F00D00D72920 /* main.cpp in Sources */,
+				AA06F85D1935F03000D72920 /* solve_boxnode.cpp in Sources */,
+				AA06F85A1935F01A00D72920 /* bump_node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +245,7 @@
 				AA06F8571935F00D00D72920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
